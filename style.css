@@ -169,7 +169,7 @@ html, body {
 
 .preco{
   font-size: 20px;
-  color:  #46022C;;
+  color:  #46022C;
   font-weight: bold;
   text-decoration: none;
 }
@@ -194,12 +194,80 @@ html, body {
 }
 
 .descricao{
-  font-family: "Jersey 10", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   text-align: center;
   font-size: 25px;
+  color: white;
 }
 
 .imagem2{
-  width: 80%;
-  
+  width: 700px;
+}
+
+/*PÁGINA FINAL */
+
+.titulo3 {
+  font-weight: 700;
+  font-size: 45px;
+  color: white;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.dispositivos{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.dispositivos img{
+  height: 100px;
+  padding: 0 50px;
+}
+
+.item{
+  font-size: 32px;
+  color: white;
+  padding: 0 50px;
+}
+
+.lista, .rodapelista{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.listalink a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  margin-left: 1em;
+}
+
+.listalink:hover{
+  color:  #46022C;
+}
+
+.rodapetexto{
+  margin: 1em 0;
+  color:  #46022C;;
+  font-size: 15px;
+}
+
+.logo2{
+  height: 100px;
+}
+
+.listalink a:active{
+  color:  #46022C;
+}
+
+.rodape{
+  text-align: center;
+  margin: 5em 3em;
+}
+
+#pag3 {
+  background-color: #FF7CE7;
 }
